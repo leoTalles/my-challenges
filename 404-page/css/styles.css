@@ -1,5 +1,5 @@
 body {
-    width: 1440px;
+    width: 100%;
     height: 1080px;
     background-color: #FFFFFF;
 }
@@ -27,5 +27,32 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 265px;
+    height: 200px;
+}
+
+.simple-title {
+    position: relative;
+    left: 319px;
+    color: #333333;
+    margin: 265px 10px 0 0;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    font-size: 64px;
+
+    font-family: 'Space Mono', monospace;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.simple-subtitle {
+    text-align: left;
+    position: relative;
+    color: #4f4f4f;
+    
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    font-size: 24px;
+    font-style: normal;
+
+
 }
